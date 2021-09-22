@@ -66,6 +66,6 @@ public class TC_26_CreateOpportunitiesWithFilterViewnameTest extends BaseClass {
 		// Verification
 		Assert.assertTrue(actoppor.contains(opportunityName));
 		System.out.println(opportunityName + " :- View Name Created Successfully And Test Script Pass");
-		Assert.assertEquals(false, true);//failed becaouse to check Listeners(ScreenShots)
+		//Assert.assertEquals(false, true);//failed becaouse to check Listeners(ScreenShots)
 	}
 }

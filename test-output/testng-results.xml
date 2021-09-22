@@ -1,53 +1,129 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results retried="2" ignored="0" total="3" passed="0" failed="1" skipped="0">
+<testng-results ignored="0" total="1" passed="0" failed="0" skipped="1">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2021-09-20T14:56:13 IST" name="Default suite" finished-at="2021-09-20T14:57:34 IST" duration-ms="81031">
+  <suite started-at="2021-09-22T19:17:17 IST" name="Default suite" finished-at="2021-09-22T19:17:43 IST" duration-ms="25831">
     <groups>
       <group name="SmokeSuite">
-        <method signature="TC_26_CreateOpportunitiesWithFilterViewnameTest.creatOpportunitiesWithFilterViewnameTest()[pri:0, instance:com.crm.autodesk.OpportunitiesTests.TC_26_CreateOpportunitiesWithFilterViewnameTest@d86a6f]" name="creatOpportunitiesWithFilterViewnameTest" class="com.crm.autodesk.OpportunitiesTests.TC_26_CreateOpportunitiesWithFilterViewnameTest"/>
+        <method signature="TC_26_CreateOpportunitiesWithFilterViewnameTest.creatOpportunitiesWithFilterViewnameTest()[pri:0, instance:com.crm.autodesk.OpportunitiesTests.TC_26_CreateOpportunitiesWithFilterViewnameTest@72e5a8e]" name="creatOpportunitiesWithFilterViewnameTest" class="com.crm.autodesk.OpportunitiesTests.TC_26_CreateOpportunitiesWithFilterViewnameTest"/>
       </group> <!-- SmokeSuite -->
     </groups>
-    <test started-at="2021-09-20T14:56:13 IST" name="Default test" finished-at="2021-09-20T14:57:34 IST" duration-ms="81031">
+    <test started-at="2021-09-22T19:17:17 IST" name="Default test" finished-at="2021-09-22T19:17:43 IST" duration-ms="25831">
       <class name="com.crm.autodesk.OpportunitiesTests.TC_26_CreateOpportunitiesWithFilterViewnameTest">
-        <test-method is-config="true" signature="connectDB()[pri:0, instance:com.crm.autodesk.OpportunitiesTests.TC_26_CreateOpportunitiesWithFilterViewnameTest@d86a6f]" started-at="2021-09-20T14:56:13 IST" name="connectDB" finished-at="2021-09-20T14:56:13 IST" duration-ms="7" status="PASS">
+        <test-method is-config="true" signature="connectDB()[pri:0, instance:com.crm.autodesk.OpportunitiesTests.TC_26_CreateOpportunitiesWithFilterViewnameTest@72e5a8e]" started-at="2021-09-22T19:17:17 IST" name="connectDB" finished-at="2021-09-22T19:17:17 IST" duration-ms="17" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- connectDB -->
-        <test-method is-config="true" signature="launchBrowser()[pri:0, instance:com.crm.autodesk.OpportunitiesTests.TC_26_CreateOpportunitiesWithFilterViewnameTest@d86a6f]" started-at="2021-09-20T14:56:13 IST" name="launchBrowser" finished-at="2021-09-20T14:56:16 IST" duration-ms="3271" status="PASS">
+        <test-method is-config="true" signature="launchBrowser()[pri:0, instance:com.crm.autodesk.OpportunitiesTests.TC_26_CreateOpportunitiesWithFilterViewnameTest@72e5a8e]" started-at="2021-09-22T19:17:17 IST" name="launchBrowser" finished-at="2021-09-22T19:17:43 IST" duration-ms="25711" status="FAIL">
+          <exception class="org.openqa.selenium.WebDriverException">
+            <message>
+              <![CDATA[unknown error: net::ERR_CONNECTION_REFUSED
+  (Session info: chrome=93.0.4577.82)
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'DESKTOP-1RHU1NU', ip: '192.168.43.99', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '16.0.1'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 93.0.4577.82, chrome: {chromedriverVersion: 93.0.4577.63 (ff5c0da2ec0ad..., userDataDir: C:\Users\PUNITH~1.C\AppData...}, goog:chromeOptions: {debuggerAddress: localhost:54029}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Session ID: bd8858438a3b1ceec8c76a15cf826285]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[org.openqa.selenium.WebDriverException: unknown error: net::ERR_CONNECTION_REFUSED
+  (Session info: chrome=93.0.4577.82)
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'DESKTOP-1RHU1NU', ip: '192.168.43.99', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '16.0.1'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 93.0.4577.82, chrome: {chromedriverVersion: 93.0.4577.63 (ff5c0da2ec0ad..., userDataDir: C:\Users\PUNITH~1.C\AppData...}, goog:chromeOptions: {debuggerAddress: localhost:54029}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Session ID: bd8858438a3b1ceec8c76a15cf826285
+at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:78)
+at java.base/jdk.internal.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+at java.base/java.lang.reflect.Constructor.newInstanceWithCaller(Constructor.java:499)
+at java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:480)
+at org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:187)
+at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:122)
+at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)
+at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)
+at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
+at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)
+at org.openqa.selenium.remote.RemoteWebDriver.get(RemoteWebDriver.java:277)
+at com.crm.autodesk.genericUtility.BaseClass.launchBrowser(BaseClass.java:62)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:78)
+at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+at java.base/java.lang.reflect.Method.invoke(Method.java:567)
+at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:133)
+at org.testng.internal.MethodInvocationHelper.invokeMethodConsideringTimeout(MethodInvocationHelper.java:62)
+at org.testng.internal.ConfigInvoker.invokeConfigurationMethod(ConfigInvoker.java:385)
+at org.testng.internal.ConfigInvoker.invokeConfigurations(ConfigInvoker.java:321)
+at org.testng.internal.TestMethodWorker.invokeBeforeClassMethods(TestMethodWorker.java:176)
+at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:122)
+at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+at org.testng.TestRunner.privateRun(TestRunner.java:794)
+at org.testng.TestRunner.run(TestRunner.java:596)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:377)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:371)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:332)
+at org.testng.SuiteRunner.run(SuiteRunner.java:276)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:53)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:96)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1212)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1134)
+at org.testng.TestNG.runSuites(TestNG.java:1063)
+at org.testng.TestNG.run(TestNG.java:1031)
+at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
+at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
+at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
+]]>
+            </full-stacktrace>
+          </exception> <!-- org.openqa.selenium.WebDriverException -->
           <reporter-output>
           </reporter-output>
         </test-method> <!-- launchBrowser -->
-        <test-method is-config="true" signature="loginToApp()[pri:0, instance:com.crm.autodesk.OpportunitiesTests.TC_26_CreateOpportunitiesWithFilterViewnameTest@d86a6f]" started-at="2021-09-20T14:56:16 IST" name="loginToApp" finished-at="2021-09-20T14:56:20 IST" duration-ms="3540" status="PASS">
+        <test-method is-config="true" signature="loginToApp()[pri:0, instance:com.crm.autodesk.OpportunitiesTests.TC_26_CreateOpportunitiesWithFilterViewnameTest@72e5a8e]" started-at="2021-09-22T19:17:43 IST" name="loginToApp" finished-at="1970-01-01T05:30:00 IST" duration-ms="-1632318463217" status="SKIP">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- loginToApp -->
-        <test-method retried="true" signature="creatOpportunitiesWithFilterViewnameTest()[pri:0, instance:com.crm.autodesk.OpportunitiesTests.TC_26_CreateOpportunitiesWithFilterViewnameTest@d86a6f]" started-at="2021-09-20T14:56:20 IST" name="creatOpportunitiesWithFilterViewnameTest" finished-at="2021-09-20T14:56:42 IST" duration-ms="22123" status="SKIP">
-          <exception class="java.lang.AssertionError">
+        <test-method signature="creatOpportunitiesWithFilterViewnameTest()[pri:0, instance:com.crm.autodesk.OpportunitiesTests.TC_26_CreateOpportunitiesWithFilterViewnameTest@72e5a8e]" started-at="2021-09-22T19:17:43 IST" name="creatOpportunitiesWithFilterViewnameTest" finished-at="2021-09-22T19:17:43 IST" duration-ms="0" status="SKIP">
+          <exception class="org.openqa.selenium.WebDriverException">
             <message>
-              <![CDATA[expected [true] but found [false]]]>
+              <![CDATA[unknown error: net::ERR_CONNECTION_REFUSED
+  (Session info: chrome=93.0.4577.82)
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'DESKTOP-1RHU1NU', ip: '192.168.43.99', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '16.0.1'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 93.0.4577.82, chrome: {chromedriverVersion: 93.0.4577.63 (ff5c0da2ec0ad..., userDataDir: C:\Users\PUNITH~1.C\AppData...}, goog:chromeOptions: {debuggerAddress: localhost:54029}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Session ID: bd8858438a3b1ceec8c76a15cf826285]]>
             </message>
             <full-stacktrace>
-              <![CDATA[java.lang.AssertionError: expected [true] but found [false]
-at org.testng.Assert.fail(Assert.java:99)
-at org.testng.Assert.failNotEquals(Assert.java:1037)
-at org.testng.Assert.assertEqualsImpl(Assert.java:140)
-at org.testng.Assert.assertEquals(Assert.java:122)
-at org.testng.Assert.assertEquals(Assert.java:819)
-at org.testng.Assert.assertEquals(Assert.java:829)
-at com.crm.autodesk.OpportunitiesTests.TC_26_CreateOpportunitiesWithFilterViewnameTest.creatOpportunitiesWithFilterViewnameTest(TC_26_CreateOpportunitiesWithFilterViewnameTest.java:70)
+              <![CDATA[org.openqa.selenium.WebDriverException: unknown error: net::ERR_CONNECTION_REFUSED
+  (Session info: chrome=93.0.4577.82)
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'DESKTOP-1RHU1NU', ip: '192.168.43.99', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '16.0.1'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 93.0.4577.82, chrome: {chromedriverVersion: 93.0.4577.63 (ff5c0da2ec0ad..., userDataDir: C:\Users\PUNITH~1.C\AppData...}, goog:chromeOptions: {debuggerAddress: localhost:54029}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Session ID: bd8858438a3b1ceec8c76a15cf826285
+at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:78)
+at java.base/jdk.internal.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+at java.base/java.lang.reflect.Constructor.newInstanceWithCaller(Constructor.java:499)
+at java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:480)
+at org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:187)
+at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:122)
+at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)
+at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)
+at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
+at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)
+at org.openqa.selenium.remote.RemoteWebDriver.get(RemoteWebDriver.java:277)
+at com.crm.autodesk.genericUtility.BaseClass.launchBrowser(BaseClass.java:62)
 at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
 at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:78)
 at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
 at java.base/java.lang.reflect.Method.invoke(Method.java:567)
 at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:133)
-at org.testng.internal.TestInvoker.invokeMethod(TestInvoker.java:598)
-at org.testng.internal.TestInvoker.invokeTestMethod(TestInvoker.java:173)
-at org.testng.internal.MethodRunner.runInSequence(MethodRunner.java:46)
-at org.testng.internal.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:824)
-at org.testng.internal.TestInvoker.invokeTestMethods(TestInvoker.java:146)
-at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:146)
-at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:128)
+at org.testng.internal.MethodInvocationHelper.invokeMethodConsideringTimeout(MethodInvocationHelper.java:62)
+at org.testng.internal.ConfigInvoker.invokeConfigurationMethod(ConfigInvoker.java:385)
+at org.testng.internal.ConfigInvoker.invokeConfigurations(ConfigInvoker.java:321)
+at org.testng.internal.TestMethodWorker.invokeBeforeClassMethods(TestMethodWorker.java:176)
+at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:122)
 at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
 at org.testng.TestRunner.privateRun(TestRunner.java:794)
 at org.testng.TestRunner.run(TestRunner.java:596)
@@ -66,131 +142,19 @@ at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
 at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
 ]]>
             </full-stacktrace>
-          </exception> <!-- java.lang.AssertionError -->
+          </exception> <!-- org.openqa.selenium.WebDriverException -->
           <reporter-output>
           </reporter-output>
         </test-method> <!-- creatOpportunitiesWithFilterViewnameTest -->
-        <test-method is-config="true" signature="logoutofApp()[pri:0, instance:com.crm.autodesk.OpportunitiesTests.TC_26_CreateOpportunitiesWithFilterViewnameTest@d86a6f]" started-at="2021-09-20T14:56:42 IST" name="logoutofApp" finished-at="2021-09-20T14:56:44 IST" duration-ms="1941" status="PASS">
+        <test-method is-config="true" signature="logoutofApp()[pri:0, instance:com.crm.autodesk.OpportunitiesTests.TC_26_CreateOpportunitiesWithFilterViewnameTest@72e5a8e]" started-at="2021-09-22T19:17:43 IST" name="logoutofApp" finished-at="1970-01-01T05:30:00 IST" duration-ms="-1632318463231" status="SKIP">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- logoutofApp -->
-        <test-method is-config="true" signature="loginToApp()[pri:0, instance:com.crm.autodesk.OpportunitiesTests.TC_26_CreateOpportunitiesWithFilterViewnameTest@d86a6f]" started-at="2021-09-20T14:56:44 IST" name="loginToApp" finished-at="2021-09-20T14:56:47 IST" duration-ms="3008" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- loginToApp -->
-        <test-method retried="true" signature="creatOpportunitiesWithFilterViewnameTest()[pri:0, instance:com.crm.autodesk.OpportunitiesTests.TC_26_CreateOpportunitiesWithFilterViewnameTest@d86a6f]" started-at="2021-09-20T14:56:47 IST" name="creatOpportunitiesWithFilterViewnameTest" finished-at="2021-09-20T14:57:06 IST" duration-ms="19451" status="SKIP">
-          <exception class="java.lang.AssertionError">
-            <message>
-              <![CDATA[expected [true] but found [false]]]>
-            </message>
-            <full-stacktrace>
-              <![CDATA[java.lang.AssertionError: expected [true] but found [false]
-at org.testng.Assert.fail(Assert.java:99)
-at org.testng.Assert.failNotEquals(Assert.java:1037)
-at org.testng.Assert.assertEqualsImpl(Assert.java:140)
-at org.testng.Assert.assertEquals(Assert.java:122)
-at org.testng.Assert.assertEquals(Assert.java:819)
-at org.testng.Assert.assertEquals(Assert.java:829)
-at com.crm.autodesk.OpportunitiesTests.TC_26_CreateOpportunitiesWithFilterViewnameTest.creatOpportunitiesWithFilterViewnameTest(TC_26_CreateOpportunitiesWithFilterViewnameTest.java:70)
-at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
-at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:78)
-at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
-at java.base/java.lang.reflect.Method.invoke(Method.java:567)
-at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:133)
-at org.testng.internal.TestInvoker.invokeMethod(TestInvoker.java:598)
-at org.testng.internal.TestInvoker.retryFailed(TestInvoker.java:213)
-at org.testng.internal.MethodRunner.runInSequence(MethodRunner.java:58)
-at org.testng.internal.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:824)
-at org.testng.internal.TestInvoker.invokeTestMethods(TestInvoker.java:146)
-at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:146)
-at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:128)
-at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
-at org.testng.TestRunner.privateRun(TestRunner.java:794)
-at org.testng.TestRunner.run(TestRunner.java:596)
-at org.testng.SuiteRunner.runTest(SuiteRunner.java:377)
-at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:371)
-at org.testng.SuiteRunner.privateRun(SuiteRunner.java:332)
-at org.testng.SuiteRunner.run(SuiteRunner.java:276)
-at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:53)
-at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:96)
-at org.testng.TestNG.runSuitesSequentially(TestNG.java:1212)
-at org.testng.TestNG.runSuitesLocally(TestNG.java:1134)
-at org.testng.TestNG.runSuites(TestNG.java:1063)
-at org.testng.TestNG.run(TestNG.java:1031)
-at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
-at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
-at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
-]]>
-            </full-stacktrace>
-          </exception> <!-- java.lang.AssertionError -->
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- creatOpportunitiesWithFilterViewnameTest -->
-        <test-method is-config="true" signature="logoutofApp()[pri:0, instance:com.crm.autodesk.OpportunitiesTests.TC_26_CreateOpportunitiesWithFilterViewnameTest@d86a6f]" started-at="2021-09-20T14:57:06 IST" name="logoutofApp" finished-at="2021-09-20T14:57:08 IST" duration-ms="1810" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- logoutofApp -->
-        <test-method is-config="true" signature="loginToApp()[pri:0, instance:com.crm.autodesk.OpportunitiesTests.TC_26_CreateOpportunitiesWithFilterViewnameTest@d86a6f]" started-at="2021-09-20T14:57:08 IST" name="loginToApp" finished-at="2021-09-20T14:57:11 IST" duration-ms="3121" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- loginToApp -->
-        <test-method signature="creatOpportunitiesWithFilterViewnameTest()[pri:0, instance:com.crm.autodesk.OpportunitiesTests.TC_26_CreateOpportunitiesWithFilterViewnameTest@d86a6f]" started-at="2021-09-20T14:57:11 IST" name="creatOpportunitiesWithFilterViewnameTest" finished-at="2021-09-20T14:57:32 IST" duration-ms="20641" status="FAIL">
-          <exception class="java.lang.AssertionError">
-            <message>
-              <![CDATA[expected [true] but found [false]]]>
-            </message>
-            <full-stacktrace>
-              <![CDATA[java.lang.AssertionError: expected [true] but found [false]
-at org.testng.Assert.fail(Assert.java:99)
-at org.testng.Assert.failNotEquals(Assert.java:1037)
-at org.testng.Assert.assertEqualsImpl(Assert.java:140)
-at org.testng.Assert.assertEquals(Assert.java:122)
-at org.testng.Assert.assertEquals(Assert.java:819)
-at org.testng.Assert.assertEquals(Assert.java:829)
-at com.crm.autodesk.OpportunitiesTests.TC_26_CreateOpportunitiesWithFilterViewnameTest.creatOpportunitiesWithFilterViewnameTest(TC_26_CreateOpportunitiesWithFilterViewnameTest.java:70)
-at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
-at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:78)
-at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
-at java.base/java.lang.reflect.Method.invoke(Method.java:567)
-at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:133)
-at org.testng.internal.TestInvoker.invokeMethod(TestInvoker.java:598)
-at org.testng.internal.TestInvoker.retryFailed(TestInvoker.java:213)
-at org.testng.internal.MethodRunner.runInSequence(MethodRunner.java:58)
-at org.testng.internal.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:824)
-at org.testng.internal.TestInvoker.invokeTestMethods(TestInvoker.java:146)
-at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:146)
-at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:128)
-at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
-at org.testng.TestRunner.privateRun(TestRunner.java:794)
-at org.testng.TestRunner.run(TestRunner.java:596)
-at org.testng.SuiteRunner.runTest(SuiteRunner.java:377)
-at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:371)
-at org.testng.SuiteRunner.privateRun(SuiteRunner.java:332)
-at org.testng.SuiteRunner.run(SuiteRunner.java:276)
-at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:53)
-at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:96)
-at org.testng.TestNG.runSuitesSequentially(TestNG.java:1212)
-at org.testng.TestNG.runSuitesLocally(TestNG.java:1134)
-at org.testng.TestNG.runSuites(TestNG.java:1063)
-at org.testng.TestNG.run(TestNG.java:1031)
-at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
-at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
-at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
-]]>
-            </full-stacktrace>
-          </exception> <!-- java.lang.AssertionError -->
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- creatOpportunitiesWithFilterViewnameTest -->
-        <test-method is-config="true" signature="logoutofApp()[pri:0, instance:com.crm.autodesk.OpportunitiesTests.TC_26_CreateOpportunitiesWithFilterViewnameTest@d86a6f]" started-at="2021-09-20T14:57:32 IST" name="logoutofApp" finished-at="2021-09-20T14:57:34 IST" duration-ms="1899" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- logoutofApp -->
-        <test-method is-config="true" signature="closeBrowser()[pri:0, instance:com.crm.autodesk.OpportunitiesTests.TC_26_CreateOpportunitiesWithFilterViewnameTest@d86a6f]" started-at="2021-09-20T14:57:34 IST" name="closeBrowser" finished-at="2021-09-20T14:57:34 IST" duration-ms="102" status="PASS">
+        <test-method is-config="true" signature="closeBrowser()[pri:0, instance:com.crm.autodesk.OpportunitiesTests.TC_26_CreateOpportunitiesWithFilterViewnameTest@72e5a8e]" started-at="2021-09-22T19:17:43 IST" name="closeBrowser" finished-at="1970-01-01T05:30:00 IST" duration-ms="-1632318463246" status="SKIP">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- closeBrowser -->
-        <test-method is-config="true" signature="closeDB()[pri:0, instance:com.crm.autodesk.OpportunitiesTests.TC_26_CreateOpportunitiesWithFilterViewnameTest@d86a6f]" started-at="2021-09-20T14:57:34 IST" name="closeDB" finished-at="2021-09-20T14:57:34 IST" duration-ms="1" status="PASS">
+        <test-method is-config="true" signature="closeDB()[pri:0, instance:com.crm.autodesk.OpportunitiesTests.TC_26_CreateOpportunitiesWithFilterViewnameTest@72e5a8e]" started-at="2021-09-22T19:17:43 IST" name="closeDB" finished-at="2021-09-22T19:17:43 IST" duration-ms="0" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- closeDB -->
